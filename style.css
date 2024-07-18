@@ -1,0 +1,56 @@
+*{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+font-family: Gilroy-SemiBold;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+#nav{
+   min-height: 10vh;
+    width: 100vw;
+    position: fixed;
+    background-color: aqua;
+    z-index: 5;
+}
+#nav #left{
+    height: 10vh;
+    padding: 1vw 2vw;
+    /* overflow: hidden; */
+}
+#nav .navlogo{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+#nav #left .firstlogo{
+    /* height: 10vh; */
+    /* background-color: lightblue; */
+}
+#nav #left .secondlogo{
+    height: 15vh;
+    width: 15vh;
+    /* background-color: lightgreen; */
+}
+
+
+
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(160, 45, 141);
+}
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkslategray;
+}
